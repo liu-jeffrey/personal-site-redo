@@ -1,3 +1,12 @@
+### Features and random stuff that I wanna implement in this site
+
+* Resume link
+* Project showcases
+* Contact information
+* Bubble tea some how idk maybe an easter egg??
+* Spotify data - show most played recently
+* Dark mode :D
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
