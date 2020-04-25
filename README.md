@@ -6,6 +6,7 @@
 * Bubble tea some how idk maybe an easter egg??
 * Spotify data - show most played recently
 * Dark mode :D
+* overwatch games tracker
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
