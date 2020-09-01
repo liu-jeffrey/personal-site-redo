@@ -1,0 +1,29 @@
+{
+    "fgf": {
+        "company": "FGF Brands",
+        "title": "Content Data Management Specialist",
+        "startDate": "May 2018",
+        "endDate": "Aug 2018",
+        "technologies": ["HTML/CSS", "SQL", "Excel", "SharePoint", "SAP"],
+        "description": "FGF was the first company I interned for as part of my co-op program. I assisted the content data team in transitioning from the company's current ERP to SAP S/4 Hana. As a result, I had the opportunity to work with various technologies including Microsoft SharePoint, SQL, and Excel. I learned how to create SQL queries, and import that data into Excel. I also too the chance and learned to use Excel VBA to code my own macros for transforming the data.",
+        "image": "@public/experience-fgf-logo.png"
+    },
+    "qualcomm": {
+        "company": "Qualcomm Inc",
+        "title": "Software Engineering Intern, AI - Machine Learning",
+        "startDate": "Jan 2019",
+        "endDate": "Apr 2019",
+        "technologies": ["Python", "Caffe2", "Tensorflow", "Numpy"],
+        "description": "Qualcomm gave me an incredible opportunity to work alongside a team of interns to create a developer tool from the ground up. The tool was completed in Python, and successfully analyzed two versions of a Caffe2 or Tensorflow neural network for differences in accuracy and output in each layer/op. Here I learned certain fundamentals concepts of industry software development, including source control, software architecture, and design patterns.",
+        "image": "@public/experience-qualcomm-logo.png"
+    },
+    "autodesk": {
+        "company": "Autodesk Inc",
+        "title": "Autodesk Research",
+        "startDate": "Jan 2020",
+        "endDate": "Apr 2020",
+        "technologies": ["Typescript", "D3.js"],
+        "description": "This was the first time I have ever been part of a research team! The team specializes in HCI and data-visualization. I helped in building an internal HR data-visualization research project with Typescript and D3.js. This was my first major brush with web-applications, and I learned how to be a front-end developer and build websites that are both aesthetic and efficient. I also had the opportunity to witness in-depth what industry research looks like!",
+        "image": "@public/experience-qualcomm-logo.png"
+    }
+}
