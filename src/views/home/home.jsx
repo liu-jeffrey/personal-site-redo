@@ -3,16 +3,16 @@ import './home.scss';
 
 function Home() {
     return(
-        <div id="home-view">
+        <div id="home-view" class="view">
             <div id="home-text">
-                <h1 id="home-intro">
+                <h1 id="home-intro" class="view-title">
                     Hi, my name is Jeffrey.<br /> 
                     I’m an aspiring software<br />
                     developer.
                 </h1>
-                <p id="home-description">
-                    Computer Science and Business Double Degree<br />
-                    student at the University of Waterloo and Wilfrid<br />
+                <p id="home-description" class="view-description">
+                    Computer Science and Business Double Degree 
+                    student at the University of Waterloo and Wilfrid 
                     Laurier University.
                 </p>
                 <div id="home-links">

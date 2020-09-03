@@ -1,3 +1,35 @@
+.view-description {
+  color: #aaaaaa;
+  font-size: 24px;
+  // font-weight: bold;
+  text-align: left;
+}
+
+.view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 5vw 0 5vw;
+  height: 80vh;
+}
+
+.view-title {
+  /* https://css-tricks.com/books/fundamental-css-tactics/scale-typography-screen-size/ */
+  font-size: calc(40px + (64 - 40) * ((100vw - 400px) / (1920 - 400)));
+
+  // font-size: 64px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
 .App {
   background-color: #1A1A1A;
   text-align: center;
