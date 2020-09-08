@@ -29,8 +29,8 @@ function Experience() {
             companyData = experienceData[kAutodesk]
         } 
 
-        setTitle(companyData["company"])
-        setStack(companyData["technologies"].join(', '))
+        setTitle(companyData["title"])
+        setStack(companyData["company"] + " // " + companyData["startDate"] + " - " + companyData["endDate"])
         setDescription(companyData["description"])
 
         document.getElementById("experience-job-description").classList.add("experience-job-description-fade")
