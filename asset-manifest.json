@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-site-redo/static/css/main.b2c9ef20.chunk.css",
+    "main.js": "/personal-site-redo/static/js/main.9305fd07.chunk.js",
+    "main.js.map": "/personal-site-redo/static/js/main.9305fd07.chunk.js.map",
+    "runtime-main.js": "/personal-site-redo/static/js/runtime-main.4df692ed.js",
+    "runtime-main.js.map": "/personal-site-redo/static/js/runtime-main.4df692ed.js.map",
+    "static/js/2.91ecc4d5.chunk.js": "/personal-site-redo/static/js/2.91ecc4d5.chunk.js",
+    "static/js/2.91ecc4d5.chunk.js.map": "/personal-site-redo/static/js/2.91ecc4d5.chunk.js.map",
+    "index.html": "/personal-site-redo/index.html",
+    "precache-manifest.d3c995a420f9232a626a21992c8a174c.js": "/personal-site-redo/precache-manifest.d3c995a420f9232a626a21992c8a174c.js",
+    "service-worker.js": "/personal-site-redo/service-worker.js",
+    "static/css/main.b2c9ef20.chunk.css.map": "/personal-site-redo/static/css/main.b2c9ef20.chunk.css.map",
+    "static/js/2.91ecc4d5.chunk.js.LICENSE.txt": "/personal-site-redo/static/js/2.91ecc4d5.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/personal-site-redo/static/media/logo.ee7cd8ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4df692ed.js",
+    "static/js/2.91ecc4d5.chunk.js",
+    "static/css/main.b2c9ef20.chunk.css",
+    "static/js/main.9305fd07.chunk.js"
+  ]
+}
