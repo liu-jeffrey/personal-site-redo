@@ -1,0 +1,20 @@
+{
+  "moodCensus": {
+    "title": "Mood Census",
+    "date": "Jan 2020",
+    "stack": ["React", "JavaScript"],
+    "link": "",
+    "picture": "",
+    "description": "A data-visualization project which graphs over the year, prominent moods in the music found throughout the weeks of the Billboard Top 100 chart.",
+    "event": "UofTHacks VII"
+  },
+  "listenUp": {
+    "title": "Listen-Up",
+    "date": "Feb 2020",
+    "stack": ["React", "TypeScript"],
+    "link": "",
+    "picture": "",
+    "description": "Web application which can be used during conversations to track significant words and information. Can be used in meetings to record key takeaways.",
+    "event": "DeltaHacks V"
+  }
+}

@@ -4,6 +4,7 @@ import './App.scss';
 import Navbar from './components/navbar/navbar';
 import Home from './views/home/home';
 import Experience from './views/experience/experience'
+import Projects from './views/projects/projects'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Home />
       <Experience />
+      <Projects />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

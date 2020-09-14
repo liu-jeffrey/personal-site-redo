@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './experience.scss';
 import experienceData from './experience-data.json';
-// import ExpCard from 'components/exp-card/exp-card';
 
 const kFGF      = "fgf"
 const kQualcomm = "qualcomm"

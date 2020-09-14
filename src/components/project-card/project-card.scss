@@ -1,0 +1,36 @@
+.project-card {
+  // min-height: 25vh;
+  max-width: 25vw;
+  color: #ffffff;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+  padding: 4vh 1vw;
+  align-items: center;
+  border-radius: 10px;
+  transition: box-shadow 0.2s ease-out, transform 0.2s ease-out;
+
+  &:hover {
+    box-shadow: 10px 10px 20px black, -10px -10px 20px black;
+    transform: translate(0, -5px);
+  }
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.project-card-title {
+  margin-top: 0;
+}
+
+.project-card-git {
+  width: 3vw;
+  fill: red;
+}
+
+.project-card-link {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 3vw;
+}
