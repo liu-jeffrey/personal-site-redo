@@ -22,7 +22,7 @@ function Home() {
                     <a href="mailto: jeffrey.liu@uwaterloo.com" target="_blank" rel="noopener noreferrer">EMAIL</a>
                 </div>
             </div>
-            <img id="home-dp" src="home-dp.jpeg" alt="home-dp.jpeg"></img> 
+            <img id="home-dp" src="personal-site-redo/home-dp.jpeg" alt="home-dp.jpeg"></img> 
         </div>
     ) 
 }
