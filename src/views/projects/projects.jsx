@@ -9,7 +9,10 @@ function Projects() {
       <h1 id="projects-title" class="view-title">
         Projects
       </h1>
-      <ProjectCard data={projectData["moodCensus"]} />
+      <div id="projects-cards">
+        <ProjectCard data={projectData["moodCensus"]} />
+        <ProjectCard data={projectData["listenUp"]} />
+      </div>
     </div>
   );
 }
