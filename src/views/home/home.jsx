@@ -17,7 +17,9 @@ function Home() {
           of Waterloo and Wilfrid Laurier University.
         </p>
         <div id="home-links">
-          <a href="google.com" target="_blank" rel="noopener noreferrer">
+          <a href="20-09-13.pdf"
+          target="_blank"
+          rel="noopener noreferrer">
             CSV
           </a>
           <a
