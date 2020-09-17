@@ -8,7 +8,7 @@ class Navbar extends React.Component {
     componentDidMount() {
         this.homeButton = document.querySelector("#navbar-home");
         this.experienceButton = document.querySelector("#navbar-experience");
-        // this.projectsButton = document.querySelector("#navbar-projects");
+        this.projectsButton = document.querySelector("#navbar-projects");
 
         smoothscroll.polyfill();
         this.addButtonListeners();
@@ -22,14 +22,14 @@ class Navbar extends React.Component {
         this.homeViewOffset = document.querySelector("#home-view").offsetTop;
         this.experienceViewOffset = document.querySelector("#experience-view").offsetTop;
         // this.projectViewOffset = document.querySelector("#project-view").offsetTop;
-        this.projectViewOffset = document.querySelector("#experience-view").offsetTop + document.querySelector("#experience-view").offsetHeight;
+        this.projectViewOffset = document.querySelector("#projects-view").offsetTop;
     }
 
     setCurrentView() {
         const scrollOffset = window.pageYOffset;
         this.homeButton.classList.toggle("current-view", scrollOffset < this.experienceViewOffset);
         this.experienceButton.classList.toggle("current-view", scrollOffset >= this.experienceViewOffset && scrollOffset < this.projectViewOffset);
-        // this.projectsButton.classList.toggle("current-view", scrollOffset >= this.projectsButton);
+        this.projectsButton.classList.toggle("current-view", scrollOffset >= this.projectViewOffset);
 
         console.log(scrollOffset);
         console.log(this.experienceViewOffset);
@@ -44,9 +44,9 @@ class Navbar extends React.Component {
         this.experienceButton.addEventListener("click", () => {
             document.querySelector("#experience-view").scrollIntoView({ behavior: "smooth" });
         });
-        // this.projectsButton.addEventListener("click", () => {
-        //     document.querySelector("ProjectsPage").scrollIntoView({ behavior: "smooth" });
-        // });
+        this.projectsButton.addEventListener("click", () => {
+            document.querySelector("#projects-view").scrollIntoView({ behavior: "smooth" });
+        });
     }
 
 

@@ -1,28 +1,31 @@
 #navbar {
-    position: fixed;
-    top: 0;
-    display: flex;
-    flex-direction: row;
-    background-image: linear-gradient(rgba(26,26,26,1) 75%, rgba(26,26,26,0));
-    align-items: center;
-    padding: 1vh 0 2vh 5vw;
-    width: 100vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(
+    rgba(26, 26, 26, 1) 75%,
+    rgba(26, 26, 26, 0)
+  );
+  align-items: center;
+  padding: 1vh 0 2vh 5vw;
+  width: 100vw;
 
-    button {
-        // height: 50%;
-        margin-right: 4vw;
-        background:none;
-        border:none;
-        padding: 0;
-        font-size: 1em;
-        color: #ffffff;
-        font-weight: bold;
-        cursor: pointer;
-        outline: none;                      /* removes the button's click outline */
-        transition: color 0.3s ease;        /* nicer button transition */
-    }
+  button {
+    // height: 50%;
+    margin-right: 4vw;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none; /* removes the button's click outline */
+    transition: color 0.3s ease; /* nicer button transition */
+  }
 }
 
 .current-view {
-    color: #D32223 !important;
+  color: #e56161 !important;
 }

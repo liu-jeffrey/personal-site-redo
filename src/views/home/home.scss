@@ -1,50 +1,50 @@
 #home-view {
-    // display: flex;
-    // flex-direction: row;
-    height: 100vh;
-    // justify-content: center;
-    // align-items: center;
-    // padding: 0 5vw 0 5vw;
+  // display: flex;
+  // flex-direction: row;
+  height: 100vh;
+  // justify-content: center;
+  // align-items: center;
+  // padding: 0 5vw 0 5vw;
 }
 
 #home-text {
-    width: 42.5vw;
+  width: 42.5vw;
 }
 
 #home-intro {
+  /* https://css-tricks.com/books/fundamental-css-tactics/scale-typography-screen-size/ */
+  // font-size: calc(40px + (64 - 40) * ((100vw - 400px) / (1920 - 400)));
 
-    /* https://css-tricks.com/books/fundamental-css-tactics/scale-typography-screen-size/ */
-    // font-size: calc(40px + (64 - 40) * ((100vw - 400px) / (1920 - 400)));
-
-    // font-size: 64px;
-    // font-weight: bold;
-    // color: #ffffff;
-    // text-align: left;
-    margin: 0 0 40px 0;
+  // font-size: 64px;
+  // font-weight: bold;
+  // color: #ffffff;
+  // text-align: left;
+  margin: 0 0 40px 0;
 }
 
 #home-description {
-    // color: #aaaaaa;
-    // font-size: 24px;
-    // font-weight: bold;
-    // text-align: left;
-    margin: 0 0 40px 0;
-    width: 30vw;
+  // color: #aaaaaa;
+  // font-size: 24px;
+  // font-weight: bold;
+  // text-align: left;
+  margin: 0 0 40px 0;
+  width: 30vw;
 }
 
 #home-links {
-    text-align: left;
-    a {
-        color: #D32223;
-        text-decoration: none;
-        margin-right: 20px;
-        font-weight: bold;
-        font-size: 24px;
-    }
+  text-align: left;
+  a {
+    color: #e56161;
+    // color: #D32223;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 24px;
+  }
 }
 
 #home-dp {
-    width: 42.5vw;
-    border-radius: 20px;
-    margin-left: 5vw;
+  width: 42.5vw;
+  border-radius: 20px;
+  margin-left: 5vw;
 }
